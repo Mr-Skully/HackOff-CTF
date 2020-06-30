@@ -15,20 +15,17 @@ Just go to developers' console and go to storage tab
 Inside cookies you could see some thing like this
 
 ```
-![GetId](https;//github.com/ajaysram/hackoff-writeup/SweetTooth/img/SweetTooth.png)
+![GetId](https;//github.com/ajaysram/hackoff/blob/master/SweetTooth/img/SweetTooth.png)
 
-```
 It says broser_Generated_junk
-
+```
 But whats a broser ? lol, it was meant to take you off-course 
 
 If you decode the sting using base64 you get the flag
 
-
 Since i'm using linux, i would do
 
 echo "aGFja29mZntjMDBraTM1X0ByM181dzMzN30K" | base64 -d
-
 
 But any online decoders would work fine
 ```
