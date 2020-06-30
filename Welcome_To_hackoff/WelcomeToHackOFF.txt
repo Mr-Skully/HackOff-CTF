@@ -1,0 +1,19 @@
+Hi,
+Welcome to Hack0ff 2020!
+
+Up ahead, you will find challenges that test your knowledge about technology and its inner workings. After solving each challenge, you will get a flag. Flags in this contest are of the form 'hackoff{some_random_text}'. After you sumbit the correct flag for each challenge in its corresponding challenge page, you'll be awarded points and you can move on to any other challenge. Don't worry if you get it wrong though, because you have an unlimited number of tries. 
+
+
+If you are stuck on a challenge, don't worry - just watch out for the hints that we may release periodically. And if that isn't enough, don't hesitate to search the Internet. Google is your friend here :)
+
+
+Don't share your flags with anyone. Apart from being a competition, this is an initiative to encourage you to dig deeper into the workings of technology and strengthen your understanding of them. Try reading up on the topics related to the challenges and any commands or tools you may use to solve them, so you can figure out what actually happens behind the scenes.
+
+
+Give it your best. 
+
+
+Good luck, and Godspeed.
+
+
+To complete THIS challenge, just submit this flag into the text box below: hackoff{this_is_my_first_flag}
