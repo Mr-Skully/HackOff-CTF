@@ -16,6 +16,7 @@ Lets start by giving some default values.
 As expected we don't get any flag.Lets dig deep ...
 
 ![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthInput.png)
+
 Looking at url it is a GET request.
 ```
 How did i know it was a GET request ? Because my input is appended to the url ...
