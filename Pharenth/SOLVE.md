@@ -15,6 +15,7 @@ Intresting.....
 Lets start by giving some default values.
 As expected we don't get any flag.Lets dig deep ...
 
+![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthInput.png)
 Looking at url it is a GET request.
 ```
 How did i know it was a GET request ? Because my input is appended to the url ...
@@ -23,11 +24,13 @@ Okay now the GET request must be there for a reason ?
 
 ```
 Lets see if there is any hint on source code ?
+![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthHints.png)
 ```
 At first glance there is nothing to be found, but look at the scroll bar , there are content below our source code
 ```
 
 ### Hidden Comments
+![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthSource.png)
 ```
 There are some typo lets fix the type and look at the comments
 ```
@@ -63,6 +66,8 @@ Since can control the url , lets modify the url and try again
 |-------|--------------|
 |``` http://url/check.php?str1=Blue&str2=Green```|``` http://url/check.phpcheck.php?str1[]=Blue&str2[]=Green ```
 
+
+![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthSolution.png)
 ## See what we did there ?
 Insted of sending the strings as such, we are passing array as input !
 
