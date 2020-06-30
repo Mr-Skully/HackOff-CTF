@@ -13,3 +13,4 @@ d = inverse(e,phi)
 
 m = int(pow(c,d,n))
 
+print(m)
