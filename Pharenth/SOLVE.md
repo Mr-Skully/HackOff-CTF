@@ -24,13 +24,13 @@ Okay now the GET request must be there for a reason ?
 
 ```
 Lets see if there is any hint on source code ?
-![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthHints.png)
+
 ```
 At first glance there is nothing to be found, but look at the scroll bar , there are content below our source code
 ```
 
 ### Hidden Comments
-![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthSource.png)
+![pharenth](https://github.com/ajaysram/hackoff/blob/master/Pharenth/img/pharenthHints.png)
 ```
 There are some typo lets fix the type and look at the comments
 ```
