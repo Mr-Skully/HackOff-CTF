@@ -15,7 +15,7 @@ Just go to developers' console and go to storage tab
 Inside cookies you could see some thing like this
 
 ```
-![GetId](https;//github.com/ajaysram/hackoff/blob/master/SweetTooth/img/SweetTooth.png)
+![SweethTooth](https://github.com/ajaysram/hackoff/blob/master/SweethTooth/img/SweetTooth.png)
 
 It says broser_Generated_junk
 ```
