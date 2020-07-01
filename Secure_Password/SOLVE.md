@@ -1,12 +1,12 @@
 # Secure Password
 
-# Challenge prompt
+## Challenge prompt
 ```
 We are provided with a file
 ```
 
 ## **Solution**
-```
+
 I have downloaded the linux version,you may work with the windows one too.
 So lets try to find out the type of the file.
 We find that it is a 64 bit ELF.
