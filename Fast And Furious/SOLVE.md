@@ -11,7 +11,7 @@ First let's find out the type of file provided to us.
 Using file <file> command we find out that the file is a 64 bit ELF.
 We convert it into an executable(linux) using chmod and run the program.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious1.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious1.png)
 
 On running the executable, we find that first, we have to press enter and then before we can enter the password, we get an out of time message.
 Lets now try strings command
@@ -34,7 +34,7 @@ Now how, can we make the program accept the input. Lets look at the code using s
 
 Opening the executable using idda pro we get the following window.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious2.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious2.png)
 
 Notice how the each block of the program is split into different boxes, to help us understand the control flow.
 Now, look at the last line of the first box 
@@ -48,11 +48,11 @@ We can set a breakpoint to the last line of the first box, which now turns red a
 
 Now run the debugger and select the option which continues execution of the program till the next wait. The terminal now shows us the follwing:  
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious3.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious3.png)
 
 Press enter and return to the ida window. Now again run the program till the next wait. We can see that the execution has now stopped at the last line of the first box. The very same point we had set the breakpoint.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious4.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious4.png)
 
 Here we can see the 2 arrows pointing to the next boxes. But the right arrow seems to be blinking, which tells us that, the control will now move to the right to execute the next instruction. This has to be changed. We need to go right.
 
@@ -79,21 +79,21 @@ These are the registers and one of these decides the control flow in our case. I
 
 Change it as follows:
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious5.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious5.png)
 
 This changes XF to 1.
 
 Now we can see the left arrow blinking. We have successfully changed the control flow.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious6.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious6.png)
 
 Run the program till the next wait and your terminal window will show the follwing.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious7.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious7.png)
 
 Enter the password, press enter, return to ida and again run the program till the next wait.
 
-![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast And Furious/img/FastAndFurious8.png)
+![Fast And Furious](https://github.com/ajaysram/hackoff/blob/master/Fast\ And\ Furious/img/FastAndFurious8.png)
 
 We got our flag.
 
