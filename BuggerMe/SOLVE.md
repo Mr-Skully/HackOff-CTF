@@ -2,19 +2,22 @@
 
 ## Challenge prompt
 ```
-We are given an url. So a web challenge
+We are given a url. So a web challenge
 ```
 ## **Solution**
-```
-Since the name suggest BuggerMe, i think we have to debug the web app. So using developers tools and selecting debugger.We find that it is a react webapp.
 
-Usually the code for main page will be in App.js .Lets look into that
-```
+The url leads to a login page, which probably only lets admins to login.
 
-Well there you go ! Just we have username and password in plain-text
+![BuggerMe](https://github.com/ajaysram/hackoff/blob/master/BuggerMe/img/BuggerMe1.png)
+
 ```
-username: admin
-password: hopeyoudebuggedme 
+Since the name suggest BuggerMe, maybe we have to debug the web app. So using developer tools and selecting debugger.We find that it is a react webapp.
+Usually the code for main page will be in App.js .Lets look into that.
+Scrolling down a bit we see this.
 ```
+![BuggerMe](https://github.com/ajaysram/hackoff/blob/master/BuggerMe/img/BuggerMe2.png)
+
+Well there you go ! This must be the username and password in plain-text
+Entering the same in the login form, we get the flag.
 
 ## flag : hackoff{at_your_service_captain}
