@@ -1,38 +1,44 @@
 # ThinkingInReverse
 
 ## Challenge prompt 
-We are given a reverse.pyc file to work with.Lets decode and see what it holds ?
-```
-lst = list('rv')
-s = input('Enter Key:')
-if s == '':
-    print('hmmm...interesting')
-else:
-    if len(s) == 10:
-        if s[3:7] == '_1s_':
-            if s[1] == str(int(3)):
-                if s[(-2)] == str(int(0)):
-                    if s[0] == lst[0]:
-                        if s[2] == lst[1]:
-                            if s[7] == chr(102):
-                                if ord(s[9]) == 110:
-                                    print('hackoff{' + s[::-1] + '}')
-                            print('you were nearly there')
-                    print('you are getting closer!')
-            print("the decimal system isn't the only system out there")
-        else:
-            print('reading and patience is the key')
-    else:
-        print('how could that step possibly go wrong :(')
-    
+We are given a reverse.pyc file to work with. pyc files are python compiled files. Lets find out whether the version of python used. For that we use the file command. 
+
+![Reverse](https://github.com/ajaysram/hackoff/blob/master/ThinkingInReverse/img/Reverse1.png)
+
+We find out that the file uses python3 and then executed it using python3. The program now asks us for a key, and a random input returnns an error message. Now it's time to decompile the file. pyc files can be decompiled either using online tools or using tools like uncompyle6. I use uncompyle6 for the same.
+
+![Reverse](https://github.com/ajaysram/hackoff/blob/master/ThinkingInReverse/img/Reverse2.png)
+
+Now, the only thing we have to do is build up the key from the source code.
+
 ```
 
-Now only thing we have to do is build up the flag from the source code.
+let key = []
 
-I have used a python script to build up the flag. But the twist is that you have to revsere the flag and submit to get points
+if(len(s) == 10):
+key has 10 alphabets, key = [ __________ ]
 
-```python
-python3 getFlag.py
+if(s[3:7]=="_1s_"):
+substring is given, key = [ ____1s____ ]
+
+if(s[1] == str(int(0x3)) and s[-2] == str(int(0b0))):
+s[1] = 3, s[-2]=s[8]=0
+key = [ _3__1s__0_ ]
+
+
+if(s[0] == lst[0] and s[2] == lst[1]):
+s[0] = r, s[2]=v
+key = [ r3v_1s__0_ ]
+
+if(s[7] == chr(102) and ord(s[9]) == 110):
+s[7] = f, s[9]=n
+key = [ r3v_1s_f0n ]
+
 ```
+
+Now, let's use the key.
+
+![Reverse](https://github.com/ajaysram/hackoff/blob/master/ThinkingInReverse/img/Reverse3.png)
+There is your flag
 
 ## flag : hackoff{n0f_s1_v3r}
