@@ -83,16 +83,16 @@ Change it as follows:
 This changes XF to 1.
 
 Now we can see the left arrow blinking. We have successfully changed the control flow.
+Run the program till the next wait and your terminal window will show the follwing.
+
 
 ![Fast_And_Furious](https://github.com/ajaysram/hackoff/blob/master/Fast_And_Furious/img/FastAndFurious6.png)
 
-Run the program till the next wait and your terminal window will show the follwing.
-
-![Fast_And_Furious](https://github.com/ajaysram/hackoff/blob/master/Fast_And_Furious/img/FastAndFurious7.png)
 
 Enter the password, press enter, return to ida and again run the program till the next wait.
 
-![Fast_And_Furious](https://github.com/ajaysram/hackoff/blob/master/Fast_And_Furious/img/FastAndFurious8.png)
+
+![Fast_And_Furious](https://github.com/ajaysram/hackoff/blob/master/Fast_And_Furious/img/FastAndFurious7.png)
 
 We got our flag.
 
