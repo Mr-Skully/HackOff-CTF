@@ -13,8 +13,9 @@ We convert it into an executable(linux) using chmod and run the program.
 You will get the flag.
 
 ```
-chmod +x JustRunIt(Linux)
-./JustRunIt(Linux)
+file JustRunIt
+chmod +x JustRunIt
+./JustRunIt
 ```
 
 If windows, running the exe file may cause the shell to appear and disapper, giving us no time to read.
