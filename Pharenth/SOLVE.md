@@ -1,6 +1,6 @@
 # Pharenth
 
-## CHallenge prompt
+## Challenge prompt
 
 ```
 We are given a url to visit
