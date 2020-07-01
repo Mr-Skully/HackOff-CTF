@@ -7,35 +7,20 @@ We are given a url lets go to that
 ```
 ## **Solution**
 
-We have a game ! First one to reach 100 wins
+We have a game ! First one to reach 100 wins.
+Input the number of your choice, which is increemented to the total count. After a couple of tries it is quite evident that it is impossible to win the game. So we need to find a way out.
 
-### Looking at source
-```
-Okay its just a counter game
-```
-The Catch
-```
-What ever value we choose , the script counter-acts so that computer can only win !!!
-```
-Think out of the box
-```
-How does the computer know the current value ? Is it stored in cookie ? An array ?
+![The_Game_Is_On](https://github.com/ajaysram/hackoff/blob/master/The_Game_Is_On/img/TheGameIsOn1.png)
 
-Or is it just taking value from the screen ?
-```
-What to do ?
-```
-The heading tag has an id Count , what if we modify that ? 
-```
+Lets inspect the count. Open developer tools and select the 'Inspect Using Mouse' icon. On hovering over the count, we see that the count is used in an h1 html tag with an id='Count'.
 
-## Beating the game 
+Lets try modifying the html manually and set the content to some number, say 95.
+![The_Game_Is_On](https://github.com/ajaysram/hackoff/blob/master/The_Game_Is_On/img/TheGameIsOn2.png)
 
-Using developers console let's go to the console tab
+We see the count modified to 95 in the game also. Add 5.
+We get the flag.
 
-- ``` Set the the current value to 99 ```
-    - ``` document.getElementById('Count').innerText = 99 ```
-- ``` Press the (+) button ```
-
-And there you go, the flag !
-
+![The_Game_Is_On](https://github.com/ajaysram/hackoff/blob/master/The_Game_Is_On/img/TheGameIsOn3.png)
+ 
+ 
 ## flag : hackoff{mission_passed!_respect+}
