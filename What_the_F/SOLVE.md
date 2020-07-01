@@ -1,21 +1,19 @@
 # What the F
 
-## Challenge prompt
-```
-Woah! That is so weird! I swear that I saw him use this to display the flag. But I don't know how! Can you help me? Pretty Please??? HINT: It can be executed somewhere.
-```
-## **Solution**
-```
-We are provided with wierd.txt. Looking at this, it is jsFuck.
+## Challenge
+`Woah! That is so weird! I swear that I saw him use this to display the flag. But I don't know how! Can you help me? Pretty Please??? HINT: It can be executed somewhere.`
+## Solution
+We are provided with wierd.txt.
 
-For the people new to such problem. jsFuck is a method to code a javascript using six characters.
+This is code written in JSFuck.
 
-```
+For people hearing about JSFuck for the first time, it is a subset of Javascript that allows you to code using just six characters.
 
-Decoding using some online too we get 
+To get the flag, you can either run it on the JS Console of your browser (since it works just like ordinary Javascript code), or you can decode it using any online tool.
+
+After decoding, we get:
 ```
 console.log('hackoff{d@mn_js}')
-
 ```
 
-## flag : hackoff{d@mn_js}
+### flag : hackoff{d@mn_js}

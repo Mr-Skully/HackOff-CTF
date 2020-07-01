@@ -15,6 +15,7 @@ Refer [RSA on Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem)#Exampl
 We are given `n`, which is the product of 2 prime numbers `p` and `q`. The core strength of the RSA encryption algorithm lies in the difficulty in factorizing very large numbers into large primes, but as this is for a beginner-level CTF, `p` and `q` are sufficiently small.
 
 Use any tool to factorize `n`. In this write-up, I’ve used [FactorDB](https://factordb.com).
+![FactorDB](https://github.com/TheSkullCrushr/HackOff-CTF/raw/master/Simple_RSA/screenshots/factordb.png)
 ```
 p = 192957463140203145916602490416933130981
 q = 254683917426025207486315812040438442821
