@@ -1,5 +1,5 @@
 # A Matter of National Security (100pts)
-###### Author: [Emil](https://github.com/TheSkullCrushr)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 
 
 ## Challenge
