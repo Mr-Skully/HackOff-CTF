@@ -1,5 +1,3 @@
 # Hackoff {Write up}
 
-```
-This is the writeup for the hackoff ctf conducted at college level.
-```
+This is the write-up for a introductory-level CTF, HackOFF 2020.
