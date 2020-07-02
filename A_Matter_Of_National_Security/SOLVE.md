@@ -8,7 +8,8 @@ _____ is a multinational computer technology corporation that is best known for 
 
 `Fill in the blanks.`
 
-Format of the flag: hackoff{youranswer} 
+Format of the flag: hackoff{youranswer}
+
 *without any spaces or dashes, in lower case
 
 ## Solution
