@@ -1,9 +1,12 @@
-# Secret Operations Base
-
+# Secret Operations Base (150pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `
-Wanna hear the word on the streets? The aliens are already here! But we were wrong about their location. It's not Area 51. There are 5 bases of operation spread around the globe, and the location of the headquarters is hidden in this file.
-HINT: It's encoded more than once.
+Wanna hear the word on the streets? The aliens are already here!`  
+`But we were wrong about their location. It's not Area 51.`  
+`There are 5 bases of operation spread around the globe, and the location of the headquarters is hidden in this file.`  
+
+`HINT: It's encoded more than once.
 `
 ## Solution
 The clues to be discovered from the question are:
