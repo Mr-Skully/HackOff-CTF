@@ -2,7 +2,8 @@
 #### Author: [Ajay](https://github.com/ajaysram)
 ## Challenge
 http://ec2-15-206-70-213.ap-south-1.compute.amazonaws.com/web-ctf/Pharenth/check.php
-`Hint: Get inside and get data ~ the_sis!`
+`Hint: Get inside and get data ~ the_sis!`  
+
 ![pharenth](https://github.com/TheSkullCrushr/HackOff-CTF/raw/master/Pharenth/img/pharenth.png)
 ## Solution
 Well we need two passwords, for Mr. Blue and Mr. Green.  
@@ -61,7 +62,8 @@ Since can control the url , lets modify the url and try again
 |` http://url/check.php?str1=Blue&str2=Green`|` http://url/check.phpcheck.php?str1[]=Blue&str2[]=Green`|
 
 
-![pharenth](https://github.com/TheSkullCrushr/HackOff-CTF/raw/master/Pharenth/img/pharenthSolution.png)
+![pharenth](https://github.com/TheSkullCrushr/HackOff-CTF/raw/master/Pharenth/img/pharenthSolution.png)  
+
 **See what we did there?**
 
 Instead of sending the strings as such, we are passing array as input.
