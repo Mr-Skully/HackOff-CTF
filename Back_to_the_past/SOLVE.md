@@ -1,9 +1,9 @@
-# Back to the past
-
+# Back To The Past (150pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `
 “Study the past if you would define the future.” ― Confucius. Crack the code, kid.
-`
+`  
 `
 HINT: Based on an older technology
 `
