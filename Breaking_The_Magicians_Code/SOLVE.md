@@ -1,16 +1,16 @@
-# Breaking Magician Code
-
+# Breaking Magician Code (200pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `
 Dr.Evil and his minions launched a cyber attack on our operations base. But by the time we got our defenses back up, he managed to corrupt some of our files. Can you fix it?
-`
+`  
 `
 HINT: All files have magic in the beginning.
 `
 ## Solution
 After  doing a Google search for **files** and **magic**, we come across the term *magic numbers.*
 
-Every file begins a set of bits known as [Magic Numbers](https://en.wikipedia.org/wiki/File_format#Magic_number). It is a file format indicator, and for our PNG image file, it is definitely required for an image viewer to recognize it as a valid image file. The file format indicators are the first and last few bits of a file.
+Every file begins a set of bits known as [Magic Numbers](https://en.wikipedia.org/wiki/File_format#Magic_number). It is a file format indicator, and for our PNG image file, it is definitely required for an image viewer to recognize it as a valid image file. The file format indicators are the first and last few bytes of a file.
 
 The magic numbers are usually inspected in a hex-editor rather than a text editor (although that too is possible), because some file headers may contain non-printable or non-keyboard characters.
 
