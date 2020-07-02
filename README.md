@@ -1,3 +1,5 @@
 # Hackoff {Write up}
 
-This is the write-up for a introductory-level CTF, HackOFF 2020.
+This is the write-up for an introductory-level CTF conducted at Government Engineering College, Thrissur.
+
+# HackOFF 2020
