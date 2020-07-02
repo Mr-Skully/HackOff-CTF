@@ -1,4 +1,5 @@
 # Anche Tu Brutale (100pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 
 ## Challenge
 `
