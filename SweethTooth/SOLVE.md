@@ -2,7 +2,7 @@
 #### Author: [Ajay](https://github.com/ajaysram)
 
 ## Challege
-http://ec2-15-206-70-213.ap-south-1.compute.amazonaws.com/web-ctf/SweetTooth/cookie.php
+http://ec2-15-206-70-213.ap-south-1.compute.amazonaws.com/web-ctf/SweetTooth/cookie.php  
 (At the page we get an image saying something about a cookie monster)
 
 ## Solution
@@ -15,9 +15,9 @@ Inside cookies you could see some thing like this:
 
 ![SweethTooth](https://github.com/TheSkullCrushr/HackOff-CTF/raw/master/SweethTooth/img/SweetTooth.png)
 
-It says  `broser_Generated_junk`  
+It says `broser_Generated_junk`.    
 
-*But whats a broser? lol, it was meant to take you off-course *
+*But whats a broser? lol, it was meant to take you off-course*
 
 If you decode the string using base64, you get the flag.
 
