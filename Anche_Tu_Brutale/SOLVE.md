@@ -2,9 +2,13 @@
 #### Author: [Emil](https://github.com/TheSkullCrushr)
 
 ## Challenge
-`
-Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him. The evil that men do lives after them; The good is oft interred with their bones; And crack away...!!!
-` 
+
+`Friends, Romans, countrymen, lend me your ears;`  
+`I come to bury Caesar, not to praise him.`  
+`The evil that men do lives after them;`  
+`The good is oft interred with their bones;`   
+
+`And crack away...!!!` 
 ## Solution
 The question name and description points us to Caesar Cipher, also known as the Shift Cipher which is one of the most common ciphers used.
 
