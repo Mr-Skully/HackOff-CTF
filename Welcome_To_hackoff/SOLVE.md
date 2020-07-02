@@ -1,5 +1,5 @@
 # Welcome To HackOff (50pts)
-
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `Introduction to Hack0FF. Download the file to continue.`
 
