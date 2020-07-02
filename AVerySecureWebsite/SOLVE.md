@@ -8,7 +8,7 @@ We did most of the hard work for you, and have tracked down the website Dr.Evil 
 `
 But somehow the site seems suspiciously legit. Take a look, maybe you're better at this than us... `
 
-[URL](https://15.206.70.213/)
+[Challenge URL](https://15.206.70.213/)
 
 ## Solution
 
