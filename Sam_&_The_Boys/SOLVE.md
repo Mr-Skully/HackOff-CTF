@@ -1,9 +1,10 @@
-# Sam and the boys
-
+# Sam And The Boys (150pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
+`Sam used to work as a cyptographer for our Forensics & Cryptanalysis Wing, but he's now retired.`  
+`He in a band now! And he can make some pretty cool tunes.. Check it out.`  
+`But you know what they say, old habits die hard. Just keep an eye on him.`  
 
-`Sam used to work as a cyptographer for our Forensics & Cryptanalysis Wing, but he's now retired. He in a band now! And he can make some pretty cool tunes.. Check it out. But you know what they say, old habits die hard. Just keep an eye on him.
-`
 ## Solution
 When we listen to the given audio file, we hear beeps of varying durations somewhere along the middle of the song.
 This is **Morse code**.
