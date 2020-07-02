@@ -1,4 +1,5 @@
 # Rotten_User (250pts)
+#### Author: [Ajay](https://github.com/ajaysram)
 
 ## Challenge
 `HINT: There are 13 admins, become one`  
