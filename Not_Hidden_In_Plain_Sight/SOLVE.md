@@ -1,23 +1,22 @@
 # Not hidden in plain sight
 
-## Challenge prompt
-```
-All she said was, "There are some easter eggs hidden inside". I don't think she meant it literally.
-```
-## **Solution**
-```
-We are provided with broen_eggs.jpeg
-```
-## Attempts
-- ``` 1. Using stegsolve```
-    - ```Result : no flag . So thats a rabbit hole ```
-- ```2. Using strings```
-    - ``` We find pass.txt at end```
+## Challenge
+`All she said was, "There are some easter eggs hidden inside". I don't think she meant it literally.`
 
-## Well,then confirmed just unzip the image !
+## Solution
 
-``` unzip unzip broken_eggs.jpg```
+We are provided with *broken_eggs.jpg.*
 
-We get a pass.txt and that is our flag
+We will perform our primary analysis of the image file by opening it in a text-editor or using the `strings` command in Linux:
+```
+$ strings broken_eggs.jpg
+```
+We see `pass.txt` among the contents of *broken_eggs.jpg*.
 
-## flag: hackoff{just_an0ther_easter_egg}
+Embedding the code of a zip file in an image is one of the most easy and primitive methods of steganography, so we'll start with that.
+
+Rename *broken_eggs.__jpg__* to _broken_eggs.**zip**_.
+
+Now upon opening the zip file using any archiver/compression tool, we can find that it actually was a **zip** file, and *pass.txt* is present inside the archive.
+The flag is inside *pass.txt*.
+### flag : hackoff{just_an0ther_easter_egg}

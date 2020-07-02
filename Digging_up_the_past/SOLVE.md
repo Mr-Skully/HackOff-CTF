@@ -1,38 +1,31 @@
 # Digging up the past
 
-## Challenge prompt
-```
+## Challenge
+`
 The photographer in this picture, and the one who took it, are both secret agents who work undercover for us in Russia. They managed to covertly send us this picture. We think it means something, or maybe something was hidden inside. Can you extract the information? It's a matter of national security!!
+`
+## Solution
+The description about the photographer suggests something interesting might be present in the EXIF data of the image.
+
+EXIF is a standard for storing metadata in the image, like name of the camera, camera settings, photographer name, and so on.
+
+We can see some basic properties by just checking the File Properties of the image file. But it is possible to store much more fields of metadata that what is visible there.
+We can use any online tool to extract the data, but we'll use [ExifTool by Phil Harvey](https://github.com/exiftool/exiftool).
+```bash
+exiftool photograph.jpg
 ```
-## **Solution**
+Here is a small section of the output of the exiftool:
 ```
-This steganography challenge is quite simple.It can be solved in 2 ways.
+Y Cb Cr Positioning             : Centered
+Preview Settings Name           : hackoff{lots_0f_secrets_in_exiftags}
+Profile CMM Type                : Little CMS
+Profile Version                 : 2.1.0
 ```
-- Low hanging fruit
-    - ```strings photographer.jpg  | grep hackoff{.*}```
-
-- Online version
-    -``` Use any online tools to extract data from image```
-- Extracting the data from the image
-    - ```exiftool photographer.jpg | grep hackoff{.*}```
-
-Both will give flag
-
-## flag : hackoff{lots_0f_secrets_in_exiftags}
-
-
-
-# ***Some info on Metadata***
+## Alternate Solution
+###### Sumbitted by [Ajay](https://github.com/ajaysram/)
+We can use `strings` command in Linux or use a text editor to find the solution.
+```bash
+strings photographer.jpg | grep hackoff{*}
 ```
-We know that everything can be translated to data.These can be anything from the type of data to bytes inside the data object.
 
-When we click a photograph we are just viewing the image.
-- But what happens to the shutter speed used ? 
-- Date and time of capture ?
-- Dimensions of image ?
--etc ...
-
-
-These are the data of the data or so called meta-data. Images have Exif data as meta-data. 
-Exiftool is a linux tool to extract meta-data from images.
-```
+### flag : hackoff{lots_0f_secrets_in_exiftags}
