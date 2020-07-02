@@ -92,8 +92,33 @@ Enter the password, press **enter**, return to IDA and again run the program til
 
 We got our flag.
 
-##Alternate Solution
-###### Submitted by  
+## Alternate Solution
+###### Submitted by [Emil](https://github.com/TheSkullCrushr)
+Inspecting the executable file in a text-editor, we come across some pieces of code and the string `IBelieveICanFly`. This might be our password.  
+The program seems to time out pretty fast. So typing in the password is not a viable option.
 
+Let's try something else - input redirection.
+
+Create a text file, `pass.txt`, with the following contents:
+```
+   
+IBelieveICanFly  
+   
+```   
+Notice that there are blank lines above and below the password. This is actually there to represent a *newline* character, as the program asks us to *hit enter* at the beginning.  
+(The *newline* at the end is optional, just in case the program needs a final push to accept the password. It doesn't mess up the logic, anyway.)
+
+Now let us use this file to supply the password to the program.
+
+On the Linux terminal:
+```bash
+./FastAndFurious < pass.txt
+```
+On the Windows Powershell:
+```powershell
+Get-Content .\pass.txt | .\FastAndFurious.exe
+```
+
+If it doesn't work at the first try, run the command again. And presto - you get the flag.  
+(Sometimes you'll need to run it twice due to discrepencies with writing to the input buffer).  
 ### flag : hackoff{fast3r_than_f3dx}
-
