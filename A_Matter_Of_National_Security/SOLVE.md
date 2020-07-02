@@ -10,9 +10,5 @@ Format of the flag: hackoff{youranswer}
 *without any spaces or dashes, in lower case
 
 ## Solution
-```
-Just google for old names of companies and search for SDL
-
-```
-
+After just a couple of Google searches, we discover `Oracle` was developed by *Software Development Laboratories*, aka, **SDL**.
 ### flag : hackoff{oracle}
