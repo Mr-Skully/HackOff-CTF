@@ -1,8 +1,11 @@
-# We Create Our Own Demons
-
+# We Create Our Own Demons (150pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `
-There are clues hidden in every nook and corner! All you've got to do is observe.. "Bonne chance." HINT: Something's French.
+There are clues hidden in every nook and corner! All you've got to do is observe..`  
+`"Bonne chance."`  
+
+`HINT: Something's French.
 `
 
 ## Solution
