@@ -1,5 +1,5 @@
-# Not hidden in plain sight
-
+# Not Hidden In Plain Sight (150pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `All she said was, "There are some easter eggs hidden inside". I don't think she meant it literally.`
 
