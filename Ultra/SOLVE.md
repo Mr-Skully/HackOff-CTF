@@ -1,5 +1,5 @@
-# Ultra
-
+# Ultra (100pts)
+#### Author: [Emil](https://github.com/TheSkullCrushr)
 ## Challenge
 `X was a pioneer of many technologies that has now developed into the backbone of modern society. Apart from the obvious technology-related roles, X was also a theoretical biologist.`
 
@@ -13,7 +13,7 @@
 
 Format of the flag: hackoff{fullname}
 
-*full name is required
+*full name is required  
 *all letters in lowercase, without spaces, hyphens or underscores
 
 
